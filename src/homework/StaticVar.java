@@ -1,13 +1,13 @@
-package ooday05;
+package homework;
 
 public class StaticVar {
-    int a ;
+    int a;
     static int b;
     StaticVar(){
         a++;
         b++;
     }
     void show(){
-        System.out.println("a="+a+"\t"+"b="+b);
+        System.out.println(a+b);
     }
 }
